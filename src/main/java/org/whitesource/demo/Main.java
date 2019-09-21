@@ -10,8 +10,8 @@ public class Main {
             return;
         }
 
-        String input = swapCase(args[0]);
-//        String input = StringUtils.swapCase(args[0]);
+//        String input = swapCase(args[0]);
+        String input = StringUtils.swapCase(args[0]);
         System.out.println("You've entered the following text: " + input);
     }
 
